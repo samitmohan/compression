@@ -16,6 +16,7 @@ Write the result to an output binary file, which will be our compressed file.
 
 
 """
+
 """
 Build a Min-Heap Tree
     Each node represents a character and its frequency.
@@ -31,6 +32,7 @@ Step 3: bcd(4), a(5) → combine → root(9)
 from collections import Counter
 
 import heapq
+
 string = "aabacabad"
 freq = Counter(string)
 heapq.heapify(string)
@@ -41,11 +43,6 @@ print(string)
 #     def __init__(self) -> None:
 #         self.char = ""
 #         self.freq = int
-    
-    # def two_least_freq():
-        # logic for combining two least freq nodes into new node whose freq = sum
 
-
-
-
-
+# def two_least_freq():
+# logic for combining two least freq nodes into new node whose freq = sum
